@@ -12,5 +12,8 @@ app.get("/",(req,res)=>{
 })
 app.get("/home",(req,res)=>{
     console.log(req.url);
+    console.log(req.method);
+    console.log(req.body);
+    console.log(req.header);
     res.send("Response From Server For /home")
 })
