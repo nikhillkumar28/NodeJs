@@ -14,9 +14,9 @@ app.listen(8080, () => {
 app.use(express.json());
 
 let users = [
-  { id: 1, name: "avi", email: "avi@mail.com", role: "Student" },
-  { id: 2, name: "satyam", email: "satyam@mail.com", role: "admin" },
-  { id: 3, name: "vivaan", email: "vivaan@mail.com", role: "Student" },
+  { id: 1, name: "ABC", email: "abc@mail.com", role: "Student" },
+  { id: 2, name: "DEF", email: "def@mail.com", role: "admin" },
+  { id: 3, name: "ZZZ", email: "zzz@mail.com", role: "Student" },
 ];
 
 app.get("/", (request, response) => {
